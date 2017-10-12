@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+- (IBAction)postToTweet:(id)sender;
+- (IBAction)postToFaceBook:(id)sender;
 
 @end
 
